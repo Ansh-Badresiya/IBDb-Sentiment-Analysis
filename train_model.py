@@ -12,7 +12,7 @@ from text_utils import tokenize_review
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "IMDB Dataset.csv"
 ARTIFACT_PATH = BASE_DIR / "artifacts" / "sentiment_bundle.joblib"
-SAMPLE_SIZE = 10000
+SAMPLE_SIZE = 20000
 RANDOM_STATE = 42
 
 def load_data() -> pd.DataFrame:
